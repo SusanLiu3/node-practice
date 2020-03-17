@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+        ul{
+            list-style: none;
+            
+        }
+        .title{
+            font-weight: bold;
+            font-size: 18px;;
+        }
+        li{
+            margin: 10px;;
+            display: flex;
+            justify-content: space-around;;
+            align-items: center;
+        }
+        a,span{
+            display: inline-block;
+            width: 100px;;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="title">
+            <a>文件列表</a>
+            <span>日期</span>
+        </li>
+        {{each path}}
+        <li>
+            <a href="{{$value}}">{{$value}}</a>
+            <span>2020-01-02</span>
+        </li>
+        {{/each}}
+    </ul>
+</body>
