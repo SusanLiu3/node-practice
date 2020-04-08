@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"  href="../public/style/index.css"/>
+</head>
+<body>
+    <a href="/add">新增留言</a>
+  <ul>
+      {{each data}}
+      <li>
+          <span>{{$value.msg}}</span>
+          <span>{{$value.date}}</span>
+      </li>
+      {{/each}}
+  </ul>
+</body>
