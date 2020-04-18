@@ -31,6 +31,7 @@
   - 使用：这里，会以views文件夹来进行查找HTML页面，所有我们可以把页面文件放在views文件夹下面
     res.render('HTML文件相对于views的路径',{需要替换的变量:变量值})
 - 如何加载静态资源
-   - 
+   - app.use('/public/',express.static("./public/"))
+   - 如果遇到URL包含/public/ 时，就去加载当前父目录下public中的静态文件
 
 
