@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>随便展示，随便看看哦</title>
+    <link href="../public/style/index.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="express-web-wrap">
+        <ul class="fruit-list">
+            {{each fruits}}
+             <li class="fruit-icon">
+                 <span class="fruit-name">{{$value}}</span>
+             </li>
+            {{/each}}
+        </ul>
+        <div class="table-wrap">
+            <div class="table-thead">
+                <div class="table-thead-item">姓名</div>
+                <div class="table-thead-item">性别</div>
+                <div class="table-thead-item">年龄</div>
+                <div class="table-thead-item">爱好</div>
+                <div class="table-thead-item">操作</div>
+            </div>
+            <div class="table-tbody">
+                {{each students}}
+                <div class="table-tbody-row">
+                    <div class="table-tbody-row-td">{{$value.name}}</div>
+                    <div class="table-tbody-row-td">{{$value.sex}}</div>
+                    <div class="table-tbody-row-td">{{$value.age}}</div>
+                    <div class="table-tbody-row-td">{{$value.hobby}}</div>
+                    <div class="table-tbody-row-td">
+                        <a href="#">编辑</a>
+                        <a href="#">删除</a>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+</body>

@@ -1,0 +1,139 @@
+{
+    "students": [
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "ldd",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        }
+        ,
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        }
+        ,
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lss",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lrr",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "lcc",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        },
+        {
+            "name": "ldd",
+            "sex": "女",
+            "age": 18,
+            "hobby": "睡觉，发呆等等"
+        }
+    ],
+    "fruits":["苹果","橘子","香蕉","橙子"]
+}

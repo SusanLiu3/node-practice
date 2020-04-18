@@ -1,0 +1,81 @@
+.express-web-wrap {
+    width: 100%;
+    height: 100%;
+    background-color: #fefae0;
+    padding: 20px;
+    ;
+}
+
+.fruit-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruit-list>li {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    background-color: #f45;
+    text-align: center;
+    margin: 30px;
+    ;
+}
+
+.fruit-name {
+    text-align: center;
+    color: #fefae9;
+}
+
+.table-wrap {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #a4a4a4;
+}
+
+.table-thead {
+    display: flex;
+    width: 100%;
+    padding-right: 10px;
+    justify-items: center;
+    line-height: 40px;
+    color: #424242;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.table-thead-item {
+    flex: 1;
+    text-align: center;
+}
+
+.table-tbody {
+    width: 100%;
+    height: calc(100% - 40px);
+    ;
+    overflow-y: auto;
+}
+
+.table-tbody-row {
+    display: flex;
+    align-items: center;
+    line-height: 36px;
+    border-bottom: 1px solid #a4a4a4;
+    margin-bottom: 10px;
+}
+
+.table-tbody-row-td {
+    flex: 1;
+    text-align: center;
+}
+
+.table-tbody-row:last-child {
+    border: none;
+}
